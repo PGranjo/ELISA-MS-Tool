@@ -5,7 +5,7 @@ The ELISA-MS tool was designed with Shiny R using the Alphalyse Shiny App templa
 
 ## Installation
 
-### Clone repository
+### Install Dependencies
 
 ```bash
 git clone https://github.com/yourusername/yourrepository
