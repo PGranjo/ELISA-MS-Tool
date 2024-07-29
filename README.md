@@ -7,8 +7,8 @@ The ELISA-MS tool was designed with Shiny R using the Alphalyse Shiny App templa
 
 ### Install Dependencies
 
+Use the following code to install the required R packages:
 ```bash
-git clone https://github.com/yourusername/yourrepository
 
 
 packages <- c("shiny", "shinyjs", "DT", "markdown", "roxygen2",
@@ -19,4 +19,5 @@ packages <- c("shiny", "shinyjs", "DT", "markdown", "roxygen2",
 # Packages to install
 to_install <- setdiff(packages, rownames(installed.packages()))
 if(length(to_install) > 0) install.packages(to_install)
-
+```
+You can then run the app by downloading the files using RStudio.
