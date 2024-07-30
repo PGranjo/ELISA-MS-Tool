@@ -1,0 +1,71 @@
+Loading required package: shiny
+Warning: package 'shiny' was built under R version 4.3.3
+Warning: package 'shinyjs' was built under R version 4.3.3
+
+Attaching package: 'shinyjs'
+
+The following object is masked from 'package:shiny':
+
+    runExample
+
+The following objects are masked from 'package:methods':
+
+    removeClass, show
+
+Warning: package 'DT' was built under R version 4.3.3
+
+Attaching package: 'DT'
+
+The following objects are masked from 'package:shiny':
+
+    dataTableOutput, renderDataTable
+
+Warning: package 'markdown' was built under R version 4.3.3
+Warning: package 'shinyWidgets' was built under R version 4.3.3
+
+Attaching package: 'shinyWidgets'
+
+The following object is masked from 'package:shinyjs':
+
+    alert
+
+Warning: package 'svglite' was built under R version 4.3.3
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning: package 'seqinr' was built under R version 4.3.3
+
+Attaching package: 'seqinr'
+
+The following object is masked from 'package:dplyr':
+
+    count
+
+The following object is masked from 'package:shiny':
+
+    a
+
+Warning: package 'stringr' was built under R version 4.3.3
+Warning: package 'writexl' was built under R version 4.3.3
+Warning: package 'UpSetR' was built under R version 4.3.3
+Warning: package 'ggVennDiagram' was built under R version 4.3.3
+Warning: package 'ggplot2' was built under R version 4.3.3
+Warning: package 'gridExtra' was built under R version 4.3.3
+
+Attaching package: 'gridExtra'
+
+The following object is masked from 'package:dplyr':
+
+    combine
+
+
+Listening on http://127.0.0.1:6481
+^C

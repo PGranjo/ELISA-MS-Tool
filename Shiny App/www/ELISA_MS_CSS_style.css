@@ -1,0 +1,239 @@
+/*Disable the outline that Chrome adds on focused elements.*/
+:focus {
+  outline: none !important;
+}
+
+/*Keep the scroll bar of body on y axis always.*/
+body {
+  overflow-y: scroll;
+}
+
+/*Change the size of both axis in body.*/ 
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/*Change the title part of navbarPage.*/
+body > nav > div.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*Create a color pallette that contains at least 5 shades of the same color.
+  A very light and pale shade to use as background in minor UI elements.
+  A light shade to use as a main color.
+  An intermediate shade to use as a hover color.
+  A dark shade to use as an active color.
+  And a superdark shade to color smaller element details.*/
+
+/*Changes of the navbar top.*/
+.navbar-static-top, .navbar-default .navbar-nav a {
+  background-color: #d7fdb4 !important;
+  border-color: #d7fdb4 !important;
+}
+
+/*Changes of the navbarPage navigation bar elements when they are active.*/
+.navbar-nav > .active > a {
+  background-color: #a2fb51 !important;
+}
+
+/*Changes of the navbarPage navigation bar elements when they are hovered.*/
+.navbar-nav li a:hover {
+  background-color: #bcfc83 !important;
+}
+
+/*Change the font color of the tool's name.*/
+.navbar-brand {
+  color: #333333 !important;
+}
+
+/*Change the font color of the tabsetPanel name color.*/
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #333333;
+}
+
+/*Changes of the main container of the app.*/
+body > div.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*Changes of the well (panel) at the sidebarPanel.*/
+.well {
+  /*74.2vh - 3px excelR tables + 55px x 2 for the navigation tabsePanel bars + 46px for excelR search module (jexcel_filter).*/
+  /* -3px is for unknown reason but that will make it fit exactly the screen's height.*/
+  min-height: calc(74.2vh - 3px + 55px + 55px + 46px);
+  /*Sometimes the following is the optimal.*/
+  /*min-height: calc(74.2vh + 55px + 55px + 46px - 22px);*/
+}
+
+/*Changes for the a elements (that covers only the href in documentation md).*/
+a {
+  color: #bcfc83;
+}
+
+a:hover {
+  color: #a2fb51;
+}
+
+/*For widget: tabsetPanel*/
+
+/*Changes of the panel navigation bar elements in tabsetPanels.*/
+.tabbable > .nav > li > a {
+  background-color: #f2fee6; 
+  color: #333333;
+  width: 10vw !important;
+  height: 40px !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*Changes of the active element in tabsetPanels.*/
+.tabbable > .nav > li[class=active] > a {
+  background-color: #ffffff; 
+  color: #333333;
+}
+
+/*Changes of the element in tabsetPanels that is hovered.*/
+.tabbable > .nav > li:hover:not(.active) > a {
+  background-color: #d7fdb4; 
+  color: #333333;
+}
+
+/*Changes of the panel navigation bar in tabsetPanel.
+  For instance: body_tabset_panel is one of the affected elements.*/
+.nav-tabs {
+  margin-bottom: 15px;
+}
+
+/*For widget: fileInput.*/
+
+/*Changes of the progress bars.*/
+.progress-bar {
+  background-color: #a2fb51;
+  margin-bottom: 15px;
+}
+
+.progress {
+  margin-bottom: 15px;
+}
+
+/*Changes of the form in fileInput widgets.*/
+.form-control[readonly] {
+  background-color: #ffffff;
+}
+
+/*For widget: radioButtons. */
+
+/*Change the margin-left for the inline radio buttons after the first one.*/
+.radio-inline+.radio-inline {
+  margin-left: 0px;
+}
+
+/*Change the margin-left for all the inline radio buttons.*/
+.radio-inline {
+  margin-right: 10px !important;
+}
+
+/*Change the accent color of radioButtons.*/
+.radio-inline input[type = "radio"] {
+  accent-color: #3d7c03;
+}
+
+/*For widget: checkboxes.*/
+
+/*Change the checkboxes - accent color and margins.*/
+.checkbox input[type = "checkbox"], .checkbox-inline input[type = "checkbox"] {
+  accent-color: #3d7c03;
+}
+
+/*Change the margins of inline checkbox group so they are aligned when wrapped vertically.*/
+.checkbox-inline {
+  margin-left: 0px !important;
+  margin-right: 10px !important;
+}
+
+/*For widgets: selectizeInput.*/
+
+/*Changes of the active (selected) choices of selectize elements.*/
+.selectize-input > div.active {
+  background: #bcfc83 !important;
+}
+
+/*Changes on selectize dropdown menu category headers.*/
+.selectize-dropdown .optgroup-header {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  background-color: #f2fee6;
+}
+
+/*Change the border color and shadow when the selectize widgets are focused.*/
+.selectize-input.focus {
+  border-color: #a2fb51!important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(162,251,81,0.6) !important;
+}
+
+/*Change the border color and shadow when the form elements are focused.*/
+.form-control:focus{
+  border-color: #a2fb51!important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(162,251,81,0.6) !important;
+}
+
+/*Changes of widget labels (headers).*/
+.control-label {
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*Changes on button elements.*/
+.btn {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*For widgets: sliderInput.*/
+
+/*Customize the color of slidebar components.*/
+.irs-bar {
+  background: #a2fb51!important;
+  border-top: #a2fb51!important;
+  border-bottom: #a2fb51!important;
+}
+
+/*Changes the color of the selected value box background.*/
+.irs-from, .irs-to, .irs-single{
+  background-color: #a2fb51 !important;
+}
+
+/*For widgets: DT::datatable.*/
+
+/*Changes on DT::datatable selected rows.*/
+table.dataTable.stripe>tbody>tr.selected>*, table.dataTable.display>tbody>tr.selected>* {
+  border-top-color: #D9D9D9 !important;
+  box-shadow: inset 0 0 0 9999px rgb(242, 254, 230, 1) !important;
+  background-color: #fff !important;
+  color: #333;
+}
+
+/*Changes on DT::datatable hovered selected rows.*/
+table.dataTable.stripe>tbody>tr.selected:hover>*, table.dataTable.display>tbody>tr.selected:hover>* {
+  border-top-color: #D9D9D9 !important;
+  box-shadow: inset 0 0 0 9999px rgba(215, 253, 180, 1) !important;
+  background-color: #fff !important;
+  color: #333;
+}
+
+/*Chages on the loading spinner of DT:datatable objects.*/
+div.dataTables_processing > div:last-child > div {
+  background: #a2fb51;
+}
