@@ -18,6 +18,8 @@ packages <- c("shiny", "shinyjs", "DT", "markdown", "roxygen2",
 
 # Packages to install
 to_install <- setdiff(packages, rownames(installed.packages()))
-if(length(to_install) > 0) install.packages(to_install)
+if(length(to_install) > 0){
+ install.packages(to_install, repos = "http://cran.us.r-project.org")
+}
 ```
 You can then run the app by downloading the files using RStudio.
