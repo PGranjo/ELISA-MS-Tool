@@ -15,7 +15,6 @@ The ELISA-MS tool is intended to perform a predictive coverage analysis of new H
 
 </p>
 
-<!-- An example of a quick-access table can be found. Clicking the hyperlinks will direct user to the respective section. -->
 
 #### Quick-access
 
@@ -51,7 +50,7 @@ can choose between different input types such as FASTA files, Excel files, or a 
 
 <p style="text-align: justify;">
 
-<b>Input Type Selection<b>
+<b>Input Type Selection</b>
 Users can select the type of input data using the "Input Type" Buttons:
 <ol>
 <li>FASTA File Input</li>
@@ -181,12 +180,12 @@ The Special Features section highlights the advanced functionalities of the tool
 
 The filtration feature enables users to refine the data displayed in all ELISA-MS tools, from the Coverage Table to the PI vs Mw plot, based on their HCPs' expression levels (parts per million (ppm) expression values). This functionality is critical for identifying the most relevant proteins in a sample.
 
-- <b>Raw Number of HCPs:<b> Users can filter the data to show only the highest-expressing HCPs in a sample. For example, if you set a filter to show the top 100 HCPs, the tool will only show the ones with the highest expression levels. This helps to narrow down the list to the most important proteins.
+- <b>Raw Number of HCPs:</b> Users can filter the data to show only the highest-expressing HCPs in a sample. For example, if you set a filter to show the top 100 HCPs, the tool will only show the ones with the highest expression levels. This helps to narrow down the list to the most important proteins.
 
-- <b>Percentage-Based Filtering:<b>This option allows users to filter the data based on a percentage threshold, such
+- <b>Percentage-Based Filtering:</b>This option allows users to filter the data based on a percentage threshold, such
 as the top 25% of expressing HCPs. This is useful for comparative studies, ensuring that only the most highly expressed proteins are considered.
 
-- <b>ppm-Based Filtering:<b> For more specific needs, users can filter proteins based solely on their ppm expression values.
+- <b>ppm-Based Filtering:</b> For more specific needs, users can filter proteins based solely on their ppm expression values.
 
 These filtration settings significantly impact the data visualizations and the content of the downloadable files, allowing users to focus on the most pertinent data.
 </p>
@@ -201,11 +200,11 @@ These filtration settings significantly impact the data visualizations and the c
 
 The download feature offers extensive customization options, allowing users to save the generated visualizations and data tables in various formats and sizes. This flexibility is vital for documentation, presentation, and further analysis.
 
-- <b> Customizable Dimensions:<b> Users can specify the height and width of the visualizations before downloading them. This feature ensures that the graphics are suitable for different uses, such as presentations, publications, or detailed reports.
--<b> Multiple File Formats:<b> The tool supports downloading the visualizations in multiple formats, including PDF, PNG, and SVG. Each format serves different purposes:
- - <b>PDF:<b> Ideal for high-quality prints and official documentation.
- - <b>PNG:<b> Suitable for web use and presentations due to its wide compatibility.
- - <b>SVG:<b> A scalable vector format that maintains quality at any size, perfect for graphic design and detailed editing.
+- <b> Customizable Dimensions:</b> Users can specify the height and width of the visualizations before downloading them. This feature ensures that the graphics are suitable for different uses, such as presentations, publications, or detailed reports.
+-<b> Multiple File Formats:</b> The tool supports downloading the visualizations in multiple formats, including PDF, PNG, and SVG. Each format serves different purposes:
+ - <b>PDF:</b> Ideal for high-quality prints and official documentation.
+ - <b>PNG:</b> Suitable for web use and presentations due to its wide compatibility.
+ - <b>SVG:</b> A scalable vector format that maintains quality at any size, perfect for graphic design and detailed editing.
 </p>
 
 [Move to the top](#top)
